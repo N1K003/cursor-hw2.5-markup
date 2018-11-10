@@ -1,0 +1,17 @@
+$block-bg-color: rgb(0, 123, 255);
+;
+$sub-block-bg-color: lightblue;
+$text-align: center;
+
+.block {
+  background: $block-bg-color;
+  .block-header {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+
+.sub-block {
+  background: $sub-block-bg-color;
+  text-align: $text-align;
+}

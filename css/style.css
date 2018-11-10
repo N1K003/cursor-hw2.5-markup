@@ -1,0 +1,13 @@
+.block {
+  background: #007bff;
+}
+
+.block .block-header {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.sub-block {
+  background: lightblue;
+  text-align: center;
+}
