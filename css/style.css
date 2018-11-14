@@ -7,7 +7,55 @@
   font-weight: bold;
 }
 
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .sub-block {
   background: lightblue;
   text-align: center;
+}
+
+@media (min-width: 576px) {
+  .block-sm {
+    height: 30px;
+  }
+  .block-md {
+    height: 45px;
+  }
+  .block-lg {
+    height: 75px;
+  }
+}
+
+@media (min-width: 768px) {
+  .block-sm {
+    height: 50px;
+  }
+  .block-md {
+    height: 150px;
+  }
+  .block-lg {
+    height: 200px;
+  }
+  .sidebar {
+    height: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .block-sm {
+    height: 100px;
+  }
+  .block-md {
+    height: 250px;
+  }
+  .block-lg {
+    height: 250px;
+  }
+  .sidebar {
+    height: 250px;
+  }
 }
